@@ -1,5 +1,5 @@
 ---
-title: EP005 pytorch로 2x2 행렬곱 계산
+title: EP004 pytorch로 2x2 행렬곱 계산
 layout: single
 author_profile: true
 read_time: true
