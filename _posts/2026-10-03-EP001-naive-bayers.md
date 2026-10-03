@@ -1,5 +1,5 @@
 ---
-title: 나이브 베이즈로 스팸 필터링
+title: EP001 나이브 베이즈로 스팸 필터링
 layout: single
 author_profile: true
 read_time: true
