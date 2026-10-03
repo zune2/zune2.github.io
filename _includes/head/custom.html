@@ -1,5 +1,14 @@
 <!-- start custom head snippets -->
 
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://jsdelivr.net"></script>
+
 {% if page.mermaid %}
 <script type="module">
   import mermaid from 'https://jsdelivr.net';
