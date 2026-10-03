@@ -7,8 +7,7 @@ comments: true
 share: true
 related: true
 tags:
-popular: true
-  - Git
+  - Pytorch
 categories:
 toc: true
 toc_sticky: true
