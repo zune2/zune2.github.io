@@ -1,0 +1,22 @@
+# main links
+main:
+  #- title: "Quick-Start Guide"
+  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  #   - title: "B2026"
+  #   url: /B2026/
+   - title: "W2026"
+     url: /W2026/
+   - title: "Books"
+     url: /books/     
+   - title: "Tag"
+     url: /tags/ 
+   - title: "Categories"
+     url: /categories/
+   - title: "About"
+     url: /about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/

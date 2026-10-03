@@ -1,7 +1,0 @@
-baseURL = 'https://zune2.github.io/'
-languageCode = 'en-us'
-title = 'Zune2'
-theme = 'hugo-clarity'
-paginate = 10
-
-
