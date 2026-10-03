@@ -43,8 +43,8 @@ $$P(X\vert{}Spam) = P(x_1\vert{}Spam) \times P(x_2\vert{}Spam) \times P(x_3\vert
 
 컴퓨터가 이메일을 받았을 때, 이 메일이 스팸(Spam)일 확률과 정상(Ham)일 확률을 각각 계산한 뒤 더 큰 쪽으로 분류
 
-$$\text{Spam Score} = P(Spam) \times P(x_1\vert{}Spam) \times P(x_2\vert{}Spam) \times ...$$ 
-$$\text{Ham Score} = P(Ham) \times P(x_1\vert{}Ham) \times P(x_2\vert{}Ham) \times ...$$ 
+- $$\text{Spam Score} = P(Spam) \times P(x_1\vert{}Spam) \times P(x_2\vert{}Spam) \times ...$$ 
+- $$\text{Ham Score} = P(Ham) \times P(x_1\vert{}Ham) \times P(x_2\vert{}Ham) \times ...$$ 
 
 * 최종 결론: 만약 $\text{Spam Score} > \text{Ham Score}$ 이면 이 메일은 스팸으로 분류.
 
