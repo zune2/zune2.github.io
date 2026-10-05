@@ -4,6 +4,9 @@ layout: single
 permalink: /books/
 author_profile: true
 comments: false
+toc: true
+toc_sticky: true
+toc_label: 목차
 read_time: true
 ---
 
