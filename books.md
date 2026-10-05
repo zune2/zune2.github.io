@@ -11,22 +11,22 @@ AI 엔지니어 로드맵 (총 30개 항목)
 
 ## 1단계: 개발 기초 및 프로그래밍
 
-1. 파이썬 데이터 타입 (List, Dict, Set, Tuple) 복잡도 이해 및 활용
+1. ~~파이썬 데이터 타입 (List, Dict, Set, Tuple) 복잡도 이해 및 활용~~
 2. 객체지향 프로그래밍 (Class, 인스턴스, 상속) 구현해 보기
 3. Decorator 및 Generator 개념 이해하고 코드에 적용하기
 4. asyncio 라이브러리를 활용한 비동기(Asynchronous) 함수 작성하기
-5. Requests 및 HTTP 메서드(GET, POST, PUT, DELETE) 기초 다지기
-6. FastAPI 또는 Flask를 활용하여 간단한 REST API 서버 구축하기
-7. Git 필수 명령어 (commit, push, pull, branch, merge) 숙달하기
-8. GitHub 레포지토리 관리 및 PR(Pull Request) 워크플로우 경험하기
+5. ~~Requests 및 HTTP 메서드(GET, POST, PUT, DELETE) 기초 다지기~~
+6. ~~FastAPI 또는 Flask를 활용하여 간단한 REST API 서버 구축하기~~
+7. ~~Git 필수 명령어 (commit, push, pull, branch, merge) 숙달하기~~
+8. ~~GitHub 레포지토리 관리 및 PR(Pull Request) 워크플로우 경험하기~~
 9. Dockerfile을 작성하고 나만의 파이썬 백엔드 앱 이미지 빌드하기
-10. 리눅스 CLI 환경 명령어 (ls, cd, mkdir, grep, chmod, curl) 익히기
+10. ~~리눅스 CLI 환경 명령어 (ls, cd, mkdir, grep, chmod, curl) 익히기~~
 11. 넘파이(NumPy)를 활용한 행렬(Matrix) 표현 및 내적(Dot Product) 연산하기
 12. 경사하강법(Gradient Descent)의 개념과 작동 원리 시각적으로 이해하기
 
 ## 2단계: LLM 및 프롬프트 엔지니어링
 
-1. OpenAI 및 Anthropic 개발자 계정 생성 및 API Key 발급받기
+1. ~~OpenAI 및 Anthropic 개발자 계정 생성 및 API Key 발급받기~~
 2. 파이썬 공식 SDK를 활용하여 ChatGPT/Claude 모델에 프롬프트 찌르기
 3. Hugging Face에서 무료 오픈소스 모델(Llama 등) 로컬에 로드해 보기
 4. OpenAI Playground를 활용하여 System prompt, User prompt 분리 제어하기
@@ -41,9 +41,9 @@ AI 엔지니어 로드맵 (총 30개 항목)
 2. 문서 길이에 맞춰 적절하게 쪼개는 청킹(Chunking - Character, Semantic 등) 기법 적용하기
 3. OpenAI의 Embedding API를 사용하여 텍스트를 고차원 벡터로 변환하기
 4. ChromaDB(로컬) 또는 Pinecone(클라우드) 인스턴스 생성하기
-5. 변환한 벡터 데이터를 Vector DB에 인덱싱(저장)하기
-6. 사용자의 질문과 가장 유사도가 높은 문서 Top-K개 찾아내기 (Cosine Similarity)
-7. LangChain 또는 LlamaIndex를 활용하여 '문서 파싱-임베딩-조회-LLM 답변' 전 과정 자동화하기
+5. ~~변환한 벡터 데이터를 Vector DB에 인덱싱(저장)하기~~
+6. ~~사용자의 질문과 가장 유사도가 높은 문서 Top-K개 찾아내기 (Cosine Similarity)~~
+7. ~~LangChain 또는 LlamaIndex를 활용하여 '문서 파싱-임베딩-조회-LLM 답변' 전 과정 자동화하기~~
 
 ## 4단계: AI 에이전트 및 오케스트레이션
 
