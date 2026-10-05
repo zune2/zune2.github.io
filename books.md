@@ -1,5 +1,5 @@
 ---
-title: AI 엔지니어 로드맵
+title: 머신러닝 / 딥러닝 / AI 엔지니어 로드맵
 layout: single
 permalink: /books/
 author_profile: true
@@ -7,7 +7,54 @@ comments: false
 read_time: true
 ---
 
-AI 엔지니어 로드맵 (총 30개 항목)
+# 머신러닝 딥러닝 로드맵
+
+## 📋 1단계: 데이터 분석 및 ML 수학 기초
+
+1. NumPy로 고유값(Eigenvalue)과 고유벡터(Eigenvector)를 구하고 선형 변환 시각화하기
+2. 합성함수의 미분을 위한 연쇄 법칙(Chain Rule)을 코드로 구현하여 경사 기울기 계산하기
+3. 가설 검정(p-value)과 베이즈 정리(Bayes' Theorem) 개념을 활용한 데이터 추론 실습하기
+4. SQL 복잡한 JOIN문과 Window 함수(RANK, LEAD, LAG)를 사용해 로우 데이터 정제하기
+5. Pandas로 결측치(Null) 임퓨테이션 및 사분위수(IQR) 기준 이상치(Outlier) 제거하기
+6. Seaborn의 pairplot과 heatmap을 활용하여 변수 간 상관관계 분석 및 EDA 보고서 작성하기
+
+## 📋 2단계: 전통적 머신러닝 (Classical ML) 마스터
+
+7. 수치형 특성에 StandardScaler를 적용하고, 범주형 특성에 One-Hot Encoding 파이프라인 구축하기
+8. 데이터 누수(Data Leakage)를 방지하기 위해 K-Fold Cross Validation을 적용한 검증 환경 만들기
+9. Linear Regression 모델을 학습시키고 규제(Lasso, Ridge)에 따른 가중치 변화 비교하기
+10. Decision Tree 분류 모델을 만들고 과적합 방지를 위해 트리 깊이(Max Depth) 제한해 보기
+11. XGBoost, LightGBM, CatBoost의 하이퍼파라미터를 Optuna 라이브러리로 자동 튜닝하기
+12. K-Means 알고리즘으로 유저 군집화를 진행하고, PCA를 활용해 2차원 평면에 군집 결과 시각화하기
+13. 불균형 데이터셋 분류 후 Confusion Matrix를 그리고 F1-score 및 ROC-AUC 곡선 평가하기
+
+## 📋 3단계: 심층 신경망 및 딥러닝 기본 (Deep Learning)
+
+14. PyTorch로 다층 퍼셉트론(MLP)을 설계하고 ReLU와 Softmax 활성화 함수 연결하기
+15. 순방향(Forward) 연산과 오차 역전파(Backpropagation)의 수식을 수치 미분 코드와 비교 검증하기
+16. 동일한 MLP 모델에 SGD, Momentum, Adam 옵티마이저를 각각 적용하여 수렴 속도 비교하기
+17. PyTorch Dataset과 DataLoader를 구현하여 미니배치(Mini-batch) 단위로 데이터 학습시키기
+18. 신경망 레이어 사이에 Dropout과 Batch Normalization을 추가하여 train/val loss 격차 줄이기
+
+## 📋 4단계: 비정형 데이터 및 도메인 심화 (CV & NLP)
+
+19. Convolution 레이어의 커널(Kernel), 스트라이드(Stride), 패딩(Padding)에 따른 출력 크기 계산하기
+20. ResNet 사전 학습 모델을 가져와 이미지 분류(Image Classification) 파인튜닝 태스크 수행하기
+21. LSTM/GRU 레이어를 활용하여 시계열 주가 예측 또는 텍스트 긍부정 분류 모델 만들기
+22. Seq2Seq 모델의 디코더가 인코더의 특정 시점을 주목하도록 만드는 Dot-product Attention 구현하기
+23. Transformer 아키텍처 논문을 읽고 멀티 헤드 어텐션(Multi-Head Attention) 블록 코드로 짜보기
+24. Hugging Face Transformers 라이브러리로 BERT 또는 GPT 계열 모델 로드 후 커스텀 데이터로 파인튜닝하기
+
+## 📋 5단계: MLOps 및 모델 양산화 (Production)
+
+25. DVC로 대용량 데이터셋의 버전을 관리하고, MLflow를 연동하여 실험별 하이퍼파라미터와 가중치(Artifact) 로깅하기
+26. 학습이 완료된 모델 가중치를 추출하여 FastAPI 기반의 실시간 추론(Inference) API 엔드포인트 만들기
+27. PyTorch 모델을 ONNX 포맷으로 변환하고, TensorRT 또는 양자화(Quantization)를 적용해 추론 속도(Latency) 개선하기
+28. Apache Airflow를 활용하여 매일 밤 새로운 데이터를 수집-전처리-모델 재학습-검증하는 워크플로우 파이프라인 자동화하기
+29. ML 추론 애플리케이션을 Docker 이미지로 빌드하고 AWS SageMaker 또는 로컬 쿠버네티스(Kubernetes)에 배포하기
+30. Evidently AI 또는 대시보드 툴을 활용하여 운영 서버에 들어오는 입력 데이터의 데이터 드리프트(Data Drift) 모니터링 체계 구축하기
+
+# AI 엔지니어 로드맵 (총 30개 항목)
 
 ## 1단계: 개발 기초 및 프로그래밍
 
