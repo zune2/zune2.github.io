@@ -57,7 +57,7 @@ read_time: true
 29. ML 추론 애플리케이션을 Docker 이미지로 빌드하고 AWS SageMaker 또는 로컬 쿠버네티스(Kubernetes)에 배포하기
 30. Evidently AI 또는 대시보드 툴을 활용하여 운영 서버에 들어오는 입력 데이터의 데이터 드리프트(Data Drift) 모니터링 체계 구축하기
 
-# AI 엔지니어 로드맵 (총 30개 항목)
+# AI 엔지니어 로드맵
 
 ## 1단계: 개발 기초 및 프로그래밍
 
