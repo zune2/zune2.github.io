@@ -78,7 +78,7 @@ read_time: true
 
 1. ~~OpenAI 및 Anthropic 개발자 계정 생성 및 API Key 발급받기~~
 2. 파이썬 공식 SDK를 활용하여 ChatGPT/Claude 모델에 프롬프트 찌르기
-3. Hugging Face에서 무료 오픈소스 모델(Llama 등) 로컬에 로드해 보기
+3. ~~Hugging Face에서 무료 오픈소스 모델(Llama 등) 로컬에 로드해 보기~~
 4. OpenAI Playground를 활용하여 System prompt, User prompt 분리 제어하기
 5. Few-shot Prompting 패턴을 설계하여 원하는 출력 예시 주입하기
 6. Chain-of-Thought (CoT)를 적용해 복잡한 추론 문제 해결하기
