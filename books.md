@@ -112,3 +112,19 @@ read_time: true
 4. 완성된 AI 에이전트 파이프라인을 FastAPI 엔드포인트로 래핑하기
 5. 서비스 전체를 docker-compose를 이용해 멀티 컨테이너 환경으로 묶기
 6. AWS (EC2/ECS) 또는 Supabase/Vercel 등 클라우드 플랫폼에 완전한 백엔드 배포하기
+
+# 머신러닝 Kaggle 문제 - Playground & 기초
+1. ~~타이타닉 - 머신러닝 2진 분류~~
+2.~~Tabular-Playground-May-2021 - 머신러닝 다중 분류~~
+3. 주택가격 예측 문제
+4. 전기차 구매 예측 (Electric Vehicle Purchases)
+5. 스마트폰 중독 수준 예측 (Smartphone Addiction)
+6. 대출 연체/상환 위험도 산출 (Loan Payback / Loan Default Loss)
+7. 고객 이탈 예측 (Customer Churn)
+8. 은행 이진 분류 (Bank Binary Classification)
+9. 도로 교통사고 위험도 (Road Accident Risk)
+10. 학생 건강 위험(Student Health Risk), 심장병 예측(Heart Disease), 당뇨병 예측(Diabetes)
+11. 음악 BPM 예측(Song BPM), 내향인 vs 외향인(Introverts vs Extroverts), 최적 비료 조건(Optimal Fertilizers), 칼로리 소모량(Calorie Expenditure), F1 피트 스톱(F1 Pit Stops)
+
+
+
