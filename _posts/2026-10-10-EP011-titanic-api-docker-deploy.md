@@ -24,6 +24,8 @@ description: desc가 여기에
 - FastAPI 웹 API 설계
 - Docker 컨테이너화
 
+> issue 2번에서 코드 확인하기
+
 ---
 
 ### 전체 서빙 아키텍처 (System Architecture)
@@ -115,8 +117,6 @@ uvicorn main:app --reload
 
 #### CLI 테스트 (`test.sh`)
 
-작성된 배시 스크립트를 통해 API의 추론 정상 여부를 즉시 모니터링할 수 있습니다.
-
 ```bash
 ./test.sh
 
@@ -148,4 +148,5 @@ curl -X POST 'http://127.0.0.1:8000/predict' \
 }
 ```
 * **결과 해석:** 입력값(1등석, 22세 여성 승객 등)을 바탕으로 도커 내부 컨테이너의 앙상블 모델이 계산해 낸 결과이며, 해당 승객의 **생존 확률은 90.84%**로 예측되었습니다.
+
 
