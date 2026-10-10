@@ -23,9 +23,9 @@ read_time: true
 
 ## 📋 2단계: 전통적 머신러닝 (Classical ML) 마스터
 
-7. 수치형 특성에 StandardScaler를 적용하고, 범주형 특성에 One-Hot Encoding 파이프라인 구축하기
-8. 데이터 누수(Data Leakage)를 방지하기 위해 K-Fold Cross Validation을 적용한 검증 환경 만들기
-9. Linear Regression 모델을 학습시키고 규제(Lasso, Ridge)에 따른 가중치 변화 비교하기
+7. 수치형 특성에 StandardScaler를 적용하고, 범주형 특성에 One-Hot Encoding 파이프라인 구축하기 - 타이타닉
+8. 데이터 누수(Data Leakage)를 방지하기 위해 K-Fold Cross Validation을 적용한 검증 환경 만들기 - 타이타닉
+9. Linear Regression 모델을 학습시키고 규제(Lasso, Ridge)에 따른 가중치 변화 비교하기 - 타이타닉
 10. Decision Tree 분류 모델을 만들고 과적합 방지를 위해 트리 깊이(Max Depth) 제한해 보기
 11. XGBoost, LightGBM, CatBoost의 하이퍼파라미터를 Optuna 라이브러리로 자동 튜닝하기
 12. K-Means 알고리즘으로 유저 군집화를 진행하고, PCA를 활용해 2차원 평면에 군집 결과 시각화하기
