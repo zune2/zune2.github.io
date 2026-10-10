@@ -27,3 +27,6 @@ description: desc가 여기에
 
 lightGBM, Optuna 하이퍼파라미터 최적화 -> 이전보다 나아지지는 않았음.
 
+1.08xx이 선두권. 피처 엔지니어링 다시 볼 것
+
+
