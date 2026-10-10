@@ -69,7 +69,7 @@ read_time: true
 6. ~~FastAPI 또는 Flask를 활용하여 간단한 REST API 서버 구축하기~~
 7. ~~Git 필수 명령어 (commit, push, pull, branch, merge) 숙달하기~~
 8. ~~GitHub 레포지토리 관리 및 PR(Pull Request) 워크플로우 경험하기~~
-9. Dockerfile을 작성하고 나만의 파이썬 백엔드 앱 이미지 빌드하기
+9. ~~Dockerfile을 작성하고 나만의 파이썬 백엔드 앱 이미지 빌드하기 (Titanic 머신러닝 Fast API로 배포)~~
 10. ~~리눅스 CLI 환경 명령어 (ls, cd, mkdir, grep, chmod, curl) 익히기~~
 11. 넘파이(NumPy)를 활용한 행렬(Matrix) 표현 및 내적(Dot Product) 연산하기
 12. 경사하강법(Gradient Descent)의 개념과 작동 원리 시각적으로 이해하기
