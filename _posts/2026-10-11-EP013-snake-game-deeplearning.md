@@ -1,5 +1,5 @@
 ---
-title: EP013 Deeplearning으로 snake game
+title: EP013 laya 흉내내서 snake game
 layout: single
 author_profile: true
 read_time: true
