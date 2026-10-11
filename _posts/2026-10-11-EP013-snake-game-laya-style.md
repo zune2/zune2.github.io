@@ -89,4 +89,9 @@ description: desc가 여기에
 
 
 ### 가운데 게임 캡처
-https://github.com/user-attachments/assets/8e56d8fd-1864-4b6b-b2ce-5b15c1d5812b
+
+<video width="100%" height="auto" controls autoplay loop muted playsinline>
+  <source src="https://github.com/user-attachments/assets/8e56d8fd-1864-4b6b-b2ce-5b15c1d5812b" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
