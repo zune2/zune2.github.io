@@ -91,7 +91,8 @@ description: desc가 여기에
 ### 가운데 게임 캡처
 
 <video width="100%" controls autoplay muted loop playsinline>
-  <source src="{{ '/assets/8e56d8fd-1864-4b6b-b2ce-5b15c1d5812bmy-video.webm' | relative_url }}" type="video/webm">
+  <source src="{{ '/assets/8e56d8fd-1864-4b6b-b2ce-5b15c1d5812b' | relative_url }}" type="video/webm">
+  
   사용하시는 브라우저는 비디오 태그를 지원하지 않습니다.
 </video>
 
