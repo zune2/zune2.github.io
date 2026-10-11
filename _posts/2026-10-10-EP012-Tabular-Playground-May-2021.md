@@ -15,8 +15,10 @@ toc_label: 목차
 description: desc가 여기에
 ---
 
+## PlayGround 2021 May 풀기
 - https://www.kaggle.com/competitions/tabular-playground-series-may-2021
 
+## 형식
 - 보기 (객관식 선택지): [Class_1, Class_2, Class_3, Class_4] 4지선다형
 - 데이터 피처: 이커머스 고객들의 행동 피처(비식별화된 수치 데이터 50여 개)
 - 평가지표로 Multi-class Log Loss를 사용하기 때문에 모델이 찍은 정답의 확률 분포가 얼마나 정교한지 철저하게 검증 가능
@@ -25,8 +27,15 @@ description: desc가 여기에
 - feature importance 구하고 시작
 - 1.09696까지 나옴
 
+
+## History
+### 2026.10.10 - 시도 1
 lightGBM, Optuna 하이퍼파라미터 최적화 -> 이전보다 나아지지는 않았음.
 
 1.08xx이 선두권. 피처 엔지니어링 다시 볼 것
+
+* LightGBM 5-Fold OOF 모델과 PyTorch MLP 모델 결합(8:2) 지정.
+* Kaggle 1.08986까지 맞춤
+
 
 
