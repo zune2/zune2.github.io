@@ -90,13 +90,11 @@ description: desc가 여기에
 
 ### 가운데 게임 캡처
 
+<video width="100%" controls autoplay muted loop playsinline>
+  <source src="{{ '/assets/8e56d8fd-1864-4b6b-b2ce-5b15c1d5812bmy-video.webm' | relative_url }}" type="video/webm">
+  사용하시는 브라우저는 비디오 태그를 지원하지 않습니다.
+</video>
 
-<div style="display: flex; justify-content: center; margin: 20px 0;">
-  <video width="100%" style="max-width: 500px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);" controls autoplay loop muted playsinline>
-    <source src="https://github.com/user-attachments/assets/8e56d8fd-1864-4b6b-b2ce-5b15c1d5812b" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
 
 
 
