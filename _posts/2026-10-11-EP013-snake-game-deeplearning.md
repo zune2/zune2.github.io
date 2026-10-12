@@ -76,19 +76,3 @@ description: desc가 여기에
 Prompt 템플릿: "Context: Snake is at (10, 10) and Apple is at (10, 5) | Question: Which direction should snake move? | Choices: UP, DOWN, LEFT, RIGHT"
 ```
 이 문장은 AutoTokenizer를 통해 정수형 토큰 ID 배열(input_ids)로 변환되어 모델에 인입
-
-### ② 다운스트림 태스크 의사결정 헤드 (Decision Head)
-
-ModernBERT 인코더의 최종 출력층에서 문맥의 총체적 의미를 담고 있는 [CLS] 토큰 가중치 벡터(768차원)를 추출
-이를 커스텀 레이어에 통과시켜 최종 4개 선택지(UP, DOWN, LEFT, RIGHT)의 확률 점수를 계산
-4. 프로젝트 결론 및 요약
-NLP 기술 트랜스포머 임베딩 메커니즘을 정형 게임 루프에 적용
-
-### Screenshot
-<img width="507" height="687" alt="Image" src="https://github.com/user-attachments/assets/26c3acd7-d390-4543-9b06-b1388a307ccf" />
-
-### 영상
-<video controls width="640">
-  <source src="https://github.com/user-attachments/assets/8e56d8fd-1864-4b6b-b2ce-5b15c1d5812b" type="video/webm">
-    현재 브라우저에서 동영상을 재생할 수 없습니다.
-</video>
