@@ -1,3 +1,19 @@
+---
+title: EP014 테트리스 게임 머신러닝 4개 + 딥러닝 1개로 최적화
+layout: single
+author_profile: true
+read_time: true
+comments: true
+share: true
+related: true
+tags:
+  - AI
+categories:
+toc: true
+toc_sticky: true
+toc_label: 목차
+description: desc가 여기에
+---
 
 - 2026.10.18 Windows에서 SDL2 gui로 테트리스 게임 머신러닝 4개 + 딥러닝 1개로 최적화
 
@@ -25,5 +41,13 @@ tetris_play_LightGBM.log 의사결정 지표 백업 완료.
 tetris_play_Deep_Learning.log 의사결정 지표 백업 완료.
 [시스템] 모든 알고리즘 상태 기록 완료.
 ```
+
+1. 합성 데이터를 공통으로 생성하고, 피처 엔지니어링으로 개선
+2. SVR은 학습시간이 오래 걸려서, LinearSVR로 변경
+3. 머신러닝끼리 경쟁시켜봄
+4. 마지막으로 딥러닝 추가해서 경쟁시켜봄
+5. 딥러닝이 성능이 떨어짐. 개선방안 적용
+6. 딥러닝이 최고점을 받도록 개선
+
 
 
