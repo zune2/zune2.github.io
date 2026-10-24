@@ -51,7 +51,7 @@ read_time: true
 ## 📋 5단계: MLOps 및 모델 양산화 (Production)
 
 25. DVC로 대용량 데이터셋의 버전을 관리하고, MLflow를 연동하여 실험별 하이퍼파라미터와 가중치(Artifact) 로깅하기
-26. 학습이 완료된 모델 가중치를 추출하여 FastAPI 기반의 실시간 추론(Inference) API 엔드포인트 만들기
+26. ~~학습이 완료된 모델 가중치를 추출하여 FastAPI 기반의 실시간 추론(Inference) API 엔드포인트 만들기~~
 27. PyTorch 모델을 ONNX 포맷으로 변환하고, TensorRT 또는 양자화(Quantization)를 적용해 추론 속도(Latency) 개선하기
 28. Apache Airflow를 활용하여 매일 밤 새로운 데이터를 수집-전처리-모델 재학습-검증하는 워크플로우 파이프라인 자동화하기
 29. ML 추론 애플리케이션을 Docker 이미지로 빌드하고 AWS SageMaker 또는 로컬 쿠버네티스(Kubernetes)에 배포하기
